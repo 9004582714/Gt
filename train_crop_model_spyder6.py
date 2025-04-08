@@ -11,7 +11,7 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.metrics import mean_absolute_error
 
 # Load CSV
-df = pd.read_csv("crop_yield.csv")
+df = pd.read_csv(r"crop_yield.csv")
 
 # Clean non-numeric rainfall
 def isStr(obj):
